@@ -1,0 +1,53 @@
+.card{
+    
+    width: 85vw;
+    padding: 20px ;
+     margin-left: 7%;
+      /* background-color: aqua;   */
+      overflow-x: auto;
+      overflow-y: hidden;
+      display: flex;
+      flex-wrap: wrap;
+    gap: 25px;
+
+
+  }
+  .card-list{
+    overflow: hidden;
+width: 15vw;
+height: 40vh;
+ /* background-color: aquamarine;   */
+border-radius: 10px;
+box-shadow: 2px 2px #dadada;
+margin-bottom: 30px;
+  }
+  .poster-img{
+    height: 32vh;
+    width: 15vw;
+    z-index: 9999;
+    /* background-color: #032541; */
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  .poster-img img{
+    height: 32vh;
+    width: 15vw;
+   
+    object-fit: cover;
+  }
+  .content{
+    margin-top: 20px;
+    
+  }
+  .content h1{
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+  }
+  .heading{
+    font-size: 5.5rem;
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: 600;
+  }
+ 
